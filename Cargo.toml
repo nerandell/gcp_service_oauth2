@@ -2,8 +2,12 @@
 name = "gcp_service_oauth2"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT"
+description = "Rust implementation of service account authentication via OAuth 2.0 for Google Cloud Platform"
+repository = "https://github.com/nerandell/gcp_service_oauth2"
+readme = "README.md"
+keywords = ["google", "gcp", "service_account", "authentication", "oauth"]
+categories = ["authentication"]
 
 [dependencies]
 serde_json = "1.0"
