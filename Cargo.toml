@@ -1,6 +1,6 @@
 [package]
 name = "gcp_service_oauth2"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT"
 description = "Rust implementation of service account authentication via OAuth 2.0 for Google Cloud Platform"
