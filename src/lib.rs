@@ -103,7 +103,6 @@ fn create_jwt_token(client_secret: &ClientSecret, scope: String) -> Result<Strin
     let claims = create_jwt_claims(client_secret, scope)?;
     let encoding_key = EncodingKey::from_rsa_pem(client_secret.private_key.as_bytes())?;
     let token = encode(&Header::new(Algorithm::RS256), &claims, &encoding_key)?;
-    println!("{}", token);
     Ok(token)
 }
 
