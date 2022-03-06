@@ -1,7 +1,7 @@
 use std::fs;
 use std::io::Error as IOError;
 use serde::{Deserialize, Serialize};
-use serde_json::{Error as JSONError, Value};
+use serde_json::{Error as JSONError};
 use std::time::{SystemTime, UNIX_EPOCH, SystemTimeError};
 use jsonwebtoken::{encode, Algorithm, Header, EncodingKey};
 use jsonwebtoken::errors::Error as JWTError;
